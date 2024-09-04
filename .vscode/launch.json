@@ -20,6 +20,16 @@
             "projectName": "Gen9-Camiones",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Gen9RutasApplication<Gen9-Rutas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.montiel.rutas.Gen9RutasApplication",
+            "projectName": "Gen9-Rutas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

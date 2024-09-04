@@ -4,19 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.montiel.negocio</groupId>
-		<artifactId>Gen9-Negocio</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-	<groupId>com.chavez.camiones</groupId>
-	<artifactId>Gen9-Camiones</artifactId>
+	<artifactId>Gen9-Negocio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Gen9-Camiones</name>
+	</parent>
+	<groupId>com.montiel.rutas</groupId>
+	<artifactId>Gen9-Rutas</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Gen9-Rutas</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
-		
 	</properties>
-	
 	<dependencies>
 		
 	</dependencies>
