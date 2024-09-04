@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Gen9ChoferesApplication<Gen9-Choferes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.montiel.choferes.Gen9ChoferesApplication",
+            "projectName": "Gen9-Choferes",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
