@@ -8,6 +8,17 @@
             "mainClass": "com.montiel.choferes.Gen9ChoferesApplication",
             "projectName": "Gen9-Choferes",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=64899 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=Gen9-Choferes"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Gen9CamionesApplication<Gen9-Camiones>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.montiel.camiones.Gen9CamionesApplication",
+            "projectName": "Gen9-Camiones",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
