@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.montiel.parent</groupId>
+		<artifactId>Gen9-Parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.montiel.negocio</groupId>
+	<artifactId>Gen9-Negocio</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Gen9-Negocio</name>
+	<description>Demo project for Spring Boot</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>Gen9-Choferes</module>
+	</modules>
+	
+	<properties>
+	</properties>
+	<dependencies>
+		
+	</dependencies>
+
+	
+
+</project>

@@ -12,6 +12,10 @@
 		<spring-boot.version>3.3.3</spring-boot.version>
 	</properties>
 	<packaging>pom</packaging>
+	<modules>
+		<module>Gen9-Infraestructura</module>
+		<module>Gen9-Negocio</module>
+	</modules>
 	<dependencyManagement>
         <dependencies>
             <dependency>
