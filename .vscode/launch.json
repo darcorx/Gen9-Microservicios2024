@@ -30,6 +30,16 @@
             "projectName": "Gen9-Rutas",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Gen9EurekaserverApplication<gen9-eurekaserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.montiel.eurekaserver.Gen9EurekaserverApplication",
+            "projectName": "gen9-eurekaserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
